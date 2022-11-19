@@ -1,0 +1,160 @@
+/* .......................Home page css............................ */
+
+
+/* this is for text go up side */
+.carousel-caption {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+}
+
+/* text alignment css for both slide */
+
+.text-overlap {
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.slide2 {
+    text-align: left;
+    padding-left: 7%;
+    padding-top: 12%;
+}
+
+/* css for download button */
+
+.resume {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: gray;
+    border-radius: 20vh;
+    padding: 2vh;
+}
+
+.resume:hover {
+    background-color: yellow;
+}
+
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px (laptop) */
+@media (min-width: 1200px) {
+
+    /* css for hello text */
+    .carousel-caption span {
+        font-size: 1.1vw;
+        font-weight: bold;
+        color: red;
+        flex-wrap: wrap;
+    }
+
+    /* css for image */
+    .carousel-item {
+        height: 89vh;
+        background-size: cover;
+    }
+
+    /* css for my name deepti */
+    strong {
+        color: white;
+        font-size: 3vw;
+    }
+
+    /* css for para */
+    p {
+        color: white;
+        font-size: 1.3vw;
+        width: 50%;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px (mobile) */
+@media (max-width: 1200px) {
+
+     /* css for hello text */
+    .carousel-caption span {
+        font-size: 4vw;
+        font-weight: bold;
+        color: red;
+        flex-wrap: wrap;
+    }
+
+    /* css for image */
+    .carousel-item {
+        margin-top: 5vh;  /* this for top margin for hello text */
+        height: 43vh;
+        background-size: cover;
+    }
+  
+    /* css for my name deepti */
+    strong {
+        color: white;
+        font-size: 7vw;
+        
+    }
+
+    /* css for para */
+    p {
+        color: white;
+        font-size: 4vw;
+    }
+
+    .height{
+        height: 430px;
+    }
+}
+
+
+/* .......................contact page css............................ */
+
+.container{
+    padding: 10vh;
+
+}
+
+#contact_me{
+    text-align: center;
+}
+
+#contact_me small{
+    color: white;
+    width: 100%;
+}
+
+.contact_para1 {
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    
+}
+
+.contact_para2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 3vh;
+}
+
+.mysite{
+    text-decoration: none;
+    color: white;
+}
+
+.mysite:hover{
+    color: yellow;
+}
+
+#contact_symbol_text{
+    color: #ffff;
+    text-align: center;
+    font-size: 3vh;
+}
+
+img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
