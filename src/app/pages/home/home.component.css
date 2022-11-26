@@ -34,7 +34,7 @@
 }
 
 .resume:hover {
-    background-color: yellow;
+    background-color: #ffbd39;
 }
 
 
@@ -51,14 +51,20 @@
 
     /* css for image */
     .carousel-item {
-        height: 89vh;
+        /* height: 100vh; */
         background-size: cover;
+
+    }
+
+    .img{
+        height: 100vh;
+        opacity: 0.7;
     }
 
     /* css for my name deepti */
     strong {
         color: white;
-        font-size: 3vw;
+        font-size: 8vh;
     }
 
     /* css for para */
@@ -110,6 +116,138 @@
 
 
 
+/* ...............................css for projects................................. */
+
+.all-proj{
+    padding: 10vh;
+}
+
+
+/* .box:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+} */
+
+
+
+
+
+
+
+
+
+/* .................................CSS for Skill page..................... */
+
+
+
+@media (min-width: 1200px) {
+
+    .container_skill{
+        padding-top: 12vh;
+    }
+
+    .container_skill h2 {
+        color: white;
+        text-align: center;
+        font-size: 8vh;
+
+    }
+
+    #front_end {
+        color: white;
+        padding-left: 30vh;
+        padding-top: 12vh;
+    }
+
+    #back_end {
+        color: white;
+        padding-left: 30vh;
+        padding-top: 12vh;
+    }
+
+    .container_skill h5 {
+        color: white;
+        text-align: left;
+        margin: 2vh;
+
+    }
+
+    .meter_top_margin {
+        margin-left: 30vh;
+        margin-right: 30vh;
+    }
+
+    .progress-bar {
+        background-color: #ffbd39;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .container_skill {
+        margin-top: 5vh;
+    }
+
+    .container_skill h2 {
+        color: white;
+        text-align: center;
+
+    }
+
+    #front_end {
+        color: white;
+        padding-left: 6vh;
+        padding-top: 5vh;
+    }
+
+    #back_end {
+        color: white;
+        padding-left: 6vh;
+        padding-top: 5vh;
+    }
+
+    .container_skill h5 {
+        color: white;
+        margin-top: 1vh;
+        font-size: 2vh;
+
+    }
+
+    .meter_top_margin {
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .progress-bar {
+        background-color: #ffbd39;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+.progress-bar {
+    animation-name: progress;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes progress {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+
+
+
 
 
 
@@ -122,7 +260,7 @@
 
 .mysite {
     text-decoration: none;
-    color: yellow;
+    color: #ffbd39;
 }
 
 .zoom_img:hover {
@@ -136,9 +274,9 @@
 
 @media (min-width: 1200px) {
 
-    .container {
+    .container_contact {
         padding: 10vh;
-    
+
     }
 
     #contact_me small {
@@ -147,19 +285,12 @@
         font-size: 2.2vh;
     }
 
-    .contact_para1 {
-        font-size: 8vh;
-        color: white;
-        text-align: center;
-        font-weight: bold;
-        width: 100%;
-    }
-
     .contact_para2 {
         color: white;
         text-align: center;
         width: 100%;
         font-size: 3vh;
+        margin-bottom: 10vh;
     }
 
     #contact_symbol_text {
@@ -168,73 +299,69 @@
         font-size: 3vh;
     }
 
-    .form_img_col{
-    background-color: grey;
-    border-left: 15vh solid black;   
+    .form_img_col {
+        background-color: grey;
+        border-left: 15vh solid black;
     }
 
-    .contact_img{
-        height: 100%;
-        width: 100%;
+    .contact_img {
+        height: 750px;
+        
     }
 
-    .from_text_col{
-    background-color: white;
-    text-align: center;
-    padding-top: 5vh;
-    border-right: 15vh solid black;  
+    .from_text_col {
+        background-color: white;
+        text-align: center;
+        padding-top: 5vh;
+        border-right: 15vh solid black;
     }
 
-    #name, #email, #subject{
-    height: 8vh;
-    width: 80vh;
-    padding: 2vh;
-    margin: 2vh;
-    border-radius: 2vh;
-    border-color: gray;
-    }    
-
-    #msg{
-    height: 20vh ;
-    width: 80vh;
-    padding: 2vh;
-    margin: 2vh;
-    border-radius: 2vh;
-    border-color: gray;
+    #name,
+    #email,
+    #subject {
+        height: 8vh;
+        width: 80vh;
+        padding: 2vh;
+        margin: 2vh;
+        border-radius: 2vh;
+        border-color: gray;
     }
 
-    #form_button{
-    margin-top: 6vh;
-    border-radius: 20vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    background-color: yellow;
-    font-weight: 800;
+    #msg {
+        height: 20vh;
+        width: 80vh;
+        padding: 2vh;
+        margin: 2vh;
+        border-radius: 2vh;
+        border-color: gray;
+    }
+
+    #form_button {
+        margin-top: 6vh;
+        border-radius: 20vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        background-color: #ffbd39;
+        font-weight: 800;
     }
 }
 
 @media (max-width: 1200px) {
 
     #contact_me small {
-    color: white;
-    width: 100%;
+        color: white;
+        width: 100%;
     }
 
-    .contact_para1 {
-    font-size: 4vh;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;   
-    }
-
-    .contact_para2{
-    color: white;
-    text-align: center;
-    width: 100%;
-    font-size: 2vh;
+    .contact_para2 {
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-size: 2vh;
+        padding-left: 6vh;
+        padding-right: 6vh;
     }
 
     #contact_symbol_text {
@@ -243,32 +370,34 @@
         font-size: 2.4vh;
     }
 
-    .form_img_col{
+    .form_img_col {
         background-color: grey;
-            
+
     }
-    
-    .from_text_col{
+
+    .from_text_col {
         background-color: white;
         text-align: center;
-        padding-top: 5vh;  
-    }   
+        padding-top: 5vh;
+    }
 
-    #name, #email, #subject{
+    #name,
+    #email,
+    #subject {
         padding: 1vh;
         width: 80%;
         border-radius: 2vh;
         border-color: gray;
-        }    
-    
-        #msg{
+    }
+
+    #msg {
         width: 80%;
         padding: 2vh;
         border-radius: 2vh;
         border-color: gray;
-        }
-    
-        #form_button{
+    }
+
+    #form_button {
         margin-top: 6vh;
         margin-bottom: 3vh;
         border-radius: 20vh;
@@ -276,15 +405,20 @@
         padding-bottom: 2vh;
         padding-left: 4vh;
         padding-right: 4vh;
-        background-color: yellow;
+        background-color: #ffbd39;
         font-weight: 800;
-        }
-
-    #form_page{
-    height: 115vh; 
     }
 
-    .zoom_img{
+    .zoom_img {
         padding-top: 2vh;
     }
 }
+
+
+
+
+
+
+
+
+
