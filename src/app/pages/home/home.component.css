@@ -119,8 +119,15 @@
 /* ...............................css for projects................................. */
 
 .all-proj{
-    padding: 10vh;
+    padding: 8vh;  
+    
 }
+
+.project_img{
+    height: 60vh;
+    padding-top: 12vh;
+}
+
 
 
 /* .box:hover{
@@ -144,7 +151,7 @@
 @media (min-width: 1200px) {
 
     .container_skill{
-        padding-top: 12vh;
+        padding-top: 8vh;
     }
 
     .container_skill h2 {
@@ -157,13 +164,20 @@
     #front_end {
         color: white;
         padding-left: 30vh;
-        padding-top: 12vh;
+        padding-top: 5vh;
     }
 
     #back_end {
         color: white;
         padding-left: 30vh;
-        padding-top: 12vh;
+        padding-top: 5vh;
+    }
+
+    #Version_control{
+        color: white;
+        padding-left: 30vh;
+        padding-top: 5vh;
+
     }
 
     .container_skill h5 {

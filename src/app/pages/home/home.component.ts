@@ -7,9 +7,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  username = null
+  email=null
+  subject=null
+  message=null
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  send_message(){
+    if (this.username == null || this.email == null || this.subject == null || this.message == null){
+      // show warning popup "Please fill the field"
+      window.alert("Please fill the field")
+    }else{
+      // show sucess popup "Message has been sent"
+      window.alert("Message has been sent")
+      // blank all field
+      this.username = null
+      this.email = null
+      this.subject = null
+      this.message = null
+    }
+    console.log(this.username,this.email,this.subject,this.message)
   }
 
 }
