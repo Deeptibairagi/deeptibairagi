@@ -223,6 +223,13 @@
         padding-top: 5vh;
     }
 
+    #Version_control{
+        color: white;
+        padding-left: 6vh;
+        padding-top: 5vh;
+
+    }
+
     .container_skill h5 {
         color: white;
         margin-top: 1vh;
