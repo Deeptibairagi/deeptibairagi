@@ -254,19 +254,19 @@
 
         <form action="">
           <div>
-            <input type="text" id="name" placeholder="Your Name" [(ngModel)]="username" [ngModelOptions]="{standalone: true}">
+            <input type="text" id="name" placeholder="Your Name" [formControl]="name">
           </div>
           <br>
           <div>
-            <input type="text" id="email" placeholder="Your Email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+            <input type="text" id="email" placeholder="Your Email" [formControl]="email">
           </div>
           <br>
           <div>
-            <input type="text" id="subject" placeholder="Subject" [(ngModel)]="subject" [ngModelOptions]="{standalone: true}">
+            <input type="text" id="subject" placeholder="Subject" [formControl]="subject">
           </div>
           <br>
           <div>
-            <textarea name="area" id="msg" placeholder="Message" cols="22" rows="5" [(ngModel)]="message" [ngModelOptions]="{standalone: true}"></textarea>
+            <textarea name="area" id="msg" placeholder="Message" cols="22" rows="5" [formControl]="message"></textarea>
           </div>
           <div>
             <button id="form_button" (click)="send_message()">SEND MESSAGE</button>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
@@ -7,30 +8,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  username = null
-  email=null
-  subject=null
-  message=null
+  name = new FormControl('');
+  email = new FormControl('');
+  subject = new FormControl('');
+  message = new FormControl('');
 
+ 
   constructor() { }
 
   ngOnInit(): void {
   }
 
   send_message(){
-    if (this.username == null || this.email == null || this.subject == null || this.message == null){
+    if (this.name.value == "" || this.email.value == "" || this.subject.value == "" || this.message.value == ""){
       // show warning popup "Please fill the field"
       window.alert("Please fill the field")
     }else{
       // show sucess popup "Message has been sent"
       window.alert("Message has been sent")
       // blank all field
-      this.username = null
-      this.email = null
-      this.subject = null
-      this.message = null
+      this.name.setValue("")
+      this.email.setValue("")
+      this.subject.setValue("")
+      this.message.setValue("")
     }
-    console.log(this.username,this.email,this.subject,this.message)
+
+
+    console.log(this.name.value,this.email.value,this.subject.value,this.message.value)
   }
 
 }

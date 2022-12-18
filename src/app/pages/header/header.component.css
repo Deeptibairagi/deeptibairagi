@@ -1,3 +1,29 @@
+.button {
+    background-color: white;
+    list-style: inside;
+    
+}
+
+a {
+    color: white;
+    margin-left: 8vh;
+
+}
+
+a:hover {
+    color: #ffbd39;
+}
+
+.navbar-toggler-icon {
+    height: 5%;
+    width: 5%;
+}
+
+
+
+
+
+
 /* If the screen size is 1200px wide or more, set the font-size to 80px (laptop) */
 
 
@@ -40,26 +66,5 @@
     }
 
     
-}
-
-.button {
-    background-color: white;
-    list-style: inside;
-    
-}
-
-a {
-    color: white;
-    margin-left: 8vh;
-
-}
-
-a:hover {
-    color: #ffbd39;
-}
-
-.navbar-toggler-icon {
-    height: 5%;
-    width: 5%;
 }
 
