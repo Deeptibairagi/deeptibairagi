@@ -28,7 +28,7 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
-    background-color: gray;
+    background-color: wheat;
     border-radius: 20vh;
     padding: 2vh;
 }
@@ -119,24 +119,30 @@
 /* ...............................css for projects................................. */
 
 .all-proj{
-    padding: 8vh;  
+    padding: 7vh;  
     
 }
 
 .project_img{
-    height: 60vh;
-    padding-top: 12vh;
+    height: 50vh;
+    padding-top: 2vh;
 }
 
-
-
-/* .box:hover{
+.project_img:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-} */
+    transform: scale(0.5);
+}
 
+.proj_detail{
+    color: white;
+    margin-top: 4vh;
+    text-align: left;
+}
 
+.proj_points{
+    font-size: smaller;
+}
 
 
 
@@ -151,32 +157,32 @@
 @media (min-width: 1200px) {
 
     .container_skill{
-        padding-top: 8vh;
+        padding-top: 7vh;
     }
 
     .container_skill h2 {
         color: white;
         text-align: center;
-        font-size: 8vh;
+        font-size: 3vh;
 
     }
 
     #front_end {
         color: white;
         padding-left: 30vh;
-        padding-top: 5vh;
+        padding-top: 1vh;
     }
 
     #back_end {
         color: white;
         padding-left: 30vh;
-        padding-top: 5vh;
+        padding-top: 1vh;
     }
 
     #Version_control{
         color: white;
         padding-left: 30vh;
-        padding-top: 5vh;
+        padding-top: 1vh;
 
     }
 
@@ -190,12 +196,14 @@
     .meter_top_margin {
         margin-left: 30vh;
         margin-right: 30vh;
+        
     }
 
     .progress-bar {
         background-color: #ffbd39;
         color: black;
         font-weight: bold;
+        
     }
 }
 
@@ -296,7 +304,7 @@
 @media (min-width: 1200px) {
 
     .container_contact {
-        padding: 10vh;
+        padding: 12vh;
 
     }
 
@@ -311,7 +319,7 @@
         text-align: center;
         width: 100%;
         font-size: 3vh;
-        margin-bottom: 10vh;
+        margin-bottom: 5vh;
     }
 
     #contact_symbol_text {
@@ -321,51 +329,45 @@
     }
 
     .form_img_col {
-        background-color: grey;
+        background-color: black;
         border-left: 15vh solid black;
     }
 
     .contact_img {
-        height: 750px;
-        
+        height: 500px;
+        padding-left: 15vh;
     }
 
     .from_text_col {
         background-color: white;
         text-align: center;
-        padding-top: 5vh;
+        padding-top: 2vh;
         border-right: 15vh solid black;
+        padding-top: 8vh;
     }
 
     #name,
     #email,
     #subject {
         height: 8vh;
-        width: 80vh;
-        padding: 2vh;
-        margin: 2vh;
+        width: 50vh;
+        padding: 1vh;
         border-radius: 2vh;
-        border-color: gray;
     }
 
     #msg {
         height: 20vh;
-        width: 80vh;
-        padding: 2vh;
-        margin: 2vh;
+        width: 50vh;
+        padding: 1vh;
         border-radius: 2vh;
-        border-color: gray;
     }
 
     #form_button {
-        margin-top: 6vh;
+        margin-top: 4vh;
         border-radius: 20vh;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        padding-left: 4vh;
-        padding-right: 4vh;
+        padding: 1vh 2vh;
         background-color: #ffbd39;
-        font-weight: 800;
+        font-weight:bold
     }
 }
 
@@ -408,26 +410,21 @@
         padding: 1vh;
         width: 80%;
         border-radius: 2vh;
-        border-color: gray;
     }
 
     #msg {
         width: 80%;
         padding: 2vh;
         border-radius: 2vh;
-        border-color: gray;
     }
 
     #form_button {
         margin-top: 6vh;
         margin-bottom: 3vh;
         border-radius: 20vh;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        padding-left: 4vh;
-        padding-right: 4vh;
+        padding: 2vh 4vh;
         background-color: #ffbd39;
-        font-weight: 800;
+        font-weight:bold;
     }
 
     .zoom_img {
