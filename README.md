@@ -9,7 +9,11 @@ making.
 # Skills
 
 Data Tools: MySQL, Postgres SQL
+
 Programming Languages: Python, Pandas, NumPy
+
 Data Visualization: Power BI, MS Excel, Matplotlib, Seaborn
+
 Cloud Technologies: Azure Data Lakh, Azure Storage
+
 ETL Tools: Azure Data Factory (ADF), Azure Databricks (ADB)
