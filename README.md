@@ -6,3 +6,10 @@ Postgres SQL, Power BI, and Python. Analyzed network KPIs across multiple techno
 processes and real-time data insights, leveraging strong analytical skills to support strategic decision-
 making.
 
+# Skill
+
+Data Tools: MySQL, Postgres SQL
+Programming Languages: Python, Pandas, NumPy
+Data Visualization: Power BI, MS Excel, Matplotlib, Seaborn
+ETL Tools: Azure Data Factory (ADF), Azure Databricks (ADB)
+Cloud Technologies: Azure Data Lakh, Azure Storage
